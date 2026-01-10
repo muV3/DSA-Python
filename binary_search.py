@@ -1,3 +1,7 @@
+# binary search cuts the number of items in half at every step
+# log2(n) time complexity
+
+
 def binary_search(list, item):
     low = 0
     high = len(list) - 1
